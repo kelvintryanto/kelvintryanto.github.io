@@ -768,6 +768,10 @@ video {
   max-width: 150px;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
 .origin-bottom-left {
   transform-origin: bottom left;
 }
