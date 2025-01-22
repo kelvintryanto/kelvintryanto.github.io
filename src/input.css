@@ -6,6 +6,16 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 .navbar-fixed {
   @apply fixed z-[9999] bg-white bg-opacity-70;
   backdrop-filter: blur(10px);

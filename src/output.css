@@ -1135,6 +1135,16 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 .navbar-fixed {
   position: fixed;
   z-index: 9999;
