@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kelvin Tryanto | Profile & Portfolio</title>
     <link href="src/output.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Header Start -->
@@ -35,13 +36,13 @@
                   <a href="#project" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Projects</a>
                 </li>
                 <li class="group">
-                  <a href="#certificate" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Certificate</a>
-                </li>
-                <li class="group">
                   <a href="#education" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Education</a>
                 </li>
                 <li class="group">
                   <a href="#experience" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Experience</a>
+                </li>
+                <li class="group">
+                  <a href="#certificate" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Certificate</a>
                 </li>
                 <li class="group">
                   <a href="#contact" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Contact</a>
@@ -70,8 +71,9 @@
               beyond limits through Technology
             </p>
 
-            <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-90 transition duration-300 ease-in-out">Contact Me</a>
+            <a href="#contact" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-90 transition duration-300 ease-in-out">Contact Me</a>
           </div>
+
           <div class="w-full self-end px-4 lg:w-1/2">
             <div class="relative mt-10 lg:mt-9 lg:right-0">
               <img src="dist/img/kelvin.png" alt="" class="max-w-full mx-auto" />
@@ -93,12 +95,16 @@
         <div class="flex flex-wrap">
           <div class="w-full px-4 mb-10 lg:w-1/2">
             <h4 class="font-bold uppercase text-primary text-lg mb-3 lg:text-4xl">About Me</h4>
-            <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Graduated Student from Hacktiv8 on 2025</h2>
-            <p class="font-medium text-base text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quod cupiditate minus voluptatem totam quaerat ad nulla veritatis molestias perferendis?</p>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">"Together to Better Future"</h2>
+
+            <div class="font-medium text-base text-secondary">
+              <p>Hi, I'm Kelvin Tryanto, a passionate tech enthusiast and software engineer with a strong foundation in technology and innovation. I am a proud graduate of Universitas Multimedia Nusantara and recently completed an intensive coding bootcamp at Hacktiv8 in January 2025, where I honed my skills in full-stack development and cutting-edge technologies.</p>
+              <p>I believe in the power of technology to drive change, and I strive to create meaningful and sustainable solutions that benefit society. Whether it's crafting efficient systems, intuitive applications, or exploring new technologies, my mission is to leave a lasting, positive impact on both the tech community and the world at large.</p>
+            </div>
           </div>
           <div class="w-full px-4 lg:w-1/2">
             <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-4xl lg:pt-14">Let's Connect</h3>
-            <p class="font-medium text-base text-secondary mb-6 lg:text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius laboriosam dolorem corrupti atque asperiores labore.</p>
+            <p class="font-medium text-base text-secondary mb-6 lg:text-xl">"Make your ideas into reality" – I believe that collaboration and the exchange of ideas can bring about innovation. Whether you want to discuss new projects, share insights, or explore opportunities, feel free to reach out. Let's work together to turn great ideas into impactful solutions.</p>
             <div class="flex items-center">
               <!-- Instagram -->
               <a href="https://www.instagram.com/kelvin_tryanto/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white text-slate-300">
@@ -133,77 +139,122 @@
     <section id="project" class="pt-24 pb-32 bg-slate-100 md:pt-20">
       <div class="container">
         <div class="w-full px-4">
-          <div class="max-w-xl mx-auto text-center mb-16">
-            <h4 class="font-bold uppercase text-primary text-lg mb-3 lg:text-4xl">My Projects</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam inventore necessitatibus ullam omnis delectus placeat laudantium sequi excepturi harum unde?</p>
+          <div class="max-w-xl mx-auto text-center mb-3">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3 lg:text-4xl">Projects</h4>
           </div>
         </div>
       </div>
 
+      <!-- pembungkus portfolio -->
       <div class="w-full px-4 flex flex-wrap xl:w-2/3 justify-center xl:mx-auto">
         <!-- Hacktiventory -->
         <div class="mb-12 p-4 md:w-1/2">
           <div class="rounded-md shadow-md overflow-hidden">
             <img src="dist/img/portfolio/1.Hacktiventory.png" alt="Hacktiventory" class="w-full" />
           </div>
-          <h3 class="font-semibold text-xl text-dark mt-3">Hacktiventory</h3>
-          <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod placeat similique recusandae!</p>
+          <div class="mt-3">
+            <a href="https://github.com/kennysunjaya/hacktiventory" class="font-semibold text-xl text-dark hover:text-primary">Hacktiventory</a>
+          </div>
+          <div class="font-medium text-base text-secondary">
+            <p>Website Application to Manage Inventory. First Hackathon Project in Phase0 at Hacktiv8.</p>
+            <p>Team: Kelvin, Kenny, Raga, Grace, Firman, Nouval</p>
+            <p>Tech Stack: Javascript, HTML, CSS, Bootstrap</p>
+          </div>
         </div>
         <!-- Fox Sense Insurance -->
         <div class="mb-12 p-4 md:w-1/2">
           <div class="rounded-md shadow-md overflow-hidden">
             <img src="dist/img/portfolio/2.FoxSenseInsurance.png" alt="Fox Sense Insurance" class="w-full" />
           </div>
-          <h3 class="font-semibold text-xl text-dark mt-3">Fox Sense Insurance</h3>
-          <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod placeat similique recusandae!</p>
+          <div class="mt-3">
+            <a href="https://github.com/kelvintryanto/fox-sense-insurance" class="font-semibold text-xl text-dark hover:text-primary">Fox Sense Insurance</a>
+          </div>
+          <div class="font-medium text-base text-secondary">
+            <p>Website Application to Manage Insurance Customers.</p>
+            <p>Team: Kelvin & Nouval</p>
+            <p>Tech Stack: Javascript, Express, NodeJS, PostgreSQL, Sequelize, TailwindCSS and EJS view engine.</p>
+          </div>
         </div>
         <!-- 3a Restaurant -->
         <div class="mb-12 p-4 md:w-1/2">
           <div class="rounded-md shadow-md overflow-hidden">
             <img src="dist/img/portfolio/3a.Restaurant.png" alt="Restaurant" class="w-full" />
           </div>
-          <h3 class="font-semibold text-xl text-dark mt-3">Restaurant</h3>
-          <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod placeat similique recusandae!</p>
+          <div class="mt-3">
+            <a href="https://restaurant-app-roan-mu.vercel.app/" class="font-semibold text-xl text-dark hover:text-primary">Restaurant</a>
+          </div>
+          <div class="font-medium text-base text-secondary">
+            <p>Individual Website Application Project to Build a Restaurant Website at Hacktiv8.</p>
+            <p>Tech Stack: Javascript, ReactJS, Vite, Express, PostgreSQL, ImageKit, Multer, and TailwindCSS.</p>
+          </div>
         </div>
         <!-- 3b Restaurant CMS -->
         <div class="mb-12 p-4 md:w-1/2">
           <div class="rounded-md shadow-md overflow-hidden">
             <img src="dist/img/portfolio/3b.Restaurant-CMS.png" alt="Restaurant CMS" class="w-full" />
           </div>
-          <h3 class="font-semibold text-xl text-dark mt-3">Restaurant-CMS</h3>
-          <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod placeat similique recusandae!</p>
+          <div class="mt-3">
+            <a href="https://restaurant-app-cms-orcin.vercel.app/" class="font-semibold text-xl text-dark hover:text-primary">Restaurant-CMS</a>
+          </div>
+          <div class="font-medium text-base text-secondary">
+            <p>Individual Website Application Project to Build a Restaurant Content Management System.</p>
+            <p>Tech Stack: Javascript, ReactJS, Vite, Express, PostgreSQL, ImageKit, Multer, and TailwindCSS.</p>
+          </div>
         </div>
         <!-- 4. Connectly -->
         <div class="mb-12 p-4 md:w-1/2">
           <div class="rounded-md shadow-md overflow-hidden">
             <img src="dist/img/portfolio/4.Connectly.png" alt="Connectly" class="w-full" />
           </div>
-          <h3 class="font-semibold text-xl text-dark mt-3">Connectly</h3>
-          <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod placeat similique recusandae!</p>
+          <div class="mt-3">
+            <a href="https://connectly-gamma.vercel.app/" class="font-semibold text-xl text-dark hover:text-primary">Connectly</a>
+          </div>
+          <div class="font-medium text-base text-secondary">
+            <p>Project to build <span class="font-bold"> Real Time Chat Website Application </span> with Oka and Raga at Hacktiv8.</p>
+            <p>Team: Kelvin, Oka, & Raga</p>
+            <p>Tech Stack: Javascript, ReactJS, Vite, Express, PostgreSQL, Cloudinary, Multer, and TailwindCSS.</p>
+          </div>
         </div>
         <!-- 5. Labuan -->
         <div class="mb-12 p-4 md:w-1/2">
           <div class="rounded-md shadow-md overflow-hidden">
             <img src="dist/img/portfolio/5.labuan.png" alt="Labuan" class="w-full" />
           </div>
-          <h3 class="font-semibold text-xl text-dark mt-3">Labuan</h3>
-          <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod placeat similique recusandae!</p>
+          <div class="mt-3">
+            <a href="https://labuan.vercel.app/" class="font-semibold text-xl text-dark hover:text-primary">Labuan</a>
+          </div>
+          <div class="font-medium text-base text-secondary">
+            <p>Individual Website Application Project to Build an E-Commerce Website inspired by Tokopedia.</p>
+            <p>Tech Stack: Javascript, ReactJS, NextJS, MongoDB, Cloudinary, and TailwindCSS.</p>
+          </div>
         </div>
         <!-- 6. Lumos -->
         <div class="mb-12 p-4 md:w-1/2">
           <div class="rounded-md shadow-md overflow-hidden">
             <img src="dist/img/portfolio/6.lumos.png" alt="Lumos" class="w-full" />
           </div>
-          <h3 class="font-semibold text-xl text-dark mt-3">Lumos</h3>
-          <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod placeat similique recusandae!</p>
+          <div class="mt-3">
+            <a href="https://lumos-orcin.vercel.app/" class="font-semibold text-xl text-dark hover:text-primary">Lumos</a>
+          </div>
+          <div class="font-medium text-base text-secondary">
+            <p>Individual Application Project to Build Journal Application.</p>
+            <p>Tech Stack: Javascript, ReactJS, Vite, PostgreSQL, GroqAI, Cloudinary, and TailwindCSS.</p>
+          </div>
         </div>
         <!-- 7. Hacktivist -->
         <div class="mb-12 p-4 md:w-1/2">
           <div class="rounded-md shadow-md overflow-hidden">
             <img src="dist/img/portfolio/7.Hacktivist.png" alt="Hacktivist" class="w-full" />
           </div>
-          <h3 class="font-semibold text-xl text-dark mt-3">Hacktivist</h3>
-          <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod placeat similique recusandae!</p>
+          <div class="mt-3">
+            <a href="https://hacktivist-mauve.vercel.app/" class="font-semibold text-xl text-dark hover:text-primary">Hacktivist</a>
+          </div>
+          <div class="font-medium text-base text-secondary">
+            <p>The Last Project: Online Law Consultation Platform.</p>
+            <p>Feature: Blog Post, Booking System, Real Time Chat Application, Video Call with webRTC, AI Chat, History of Cases, and Google Maps API.</p>
+            <p>Team: Kelvin, Raga, Oka, Grace, Kenny, Seno</p>
+            <p>Tech Stack: Javascript, ReactJS, NextJS, MongoDB, Cloudinary, and TailwindCSS.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -222,7 +273,7 @@
         <div class="flex flex-wrap lg:items-center">
           <div class="w-full lg:w-1/2">
             <div class="flex">
-              <div class="min-w-[50px] p-5 max-w-[150px]">
+              <div class="min-w-[100px] p-5 max-w-[150px]">
                 <img src="dist/img/education/hacktiv8.png" alt="Hacktiv8" class="w-full" />
               </div>
               <div class="mb-5 md:w-2/3">
@@ -277,11 +328,132 @@
     <!-- Education Section End -->
 
     <!-- Experience Section Start -->
-    <section id="experience" class="pt-24 pb-32 md:pt-20 bg-slate-100">
+    <section id="experience" class="pt-24 md:pt-20 bg-slate-100">
       <div class="container">
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-16">
             <h4 class="font-bold uppercase text-primary text-lg mb-3 lg:text-4xl">Experience</h4>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap">
+          <!-- Rhapsodie.co - Full Stack Website Developer -->
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <div class="flex gap-10 mb-10">
+              <div class="min-w-[50px] max-w-[150px] overflow-hidden">
+                <img src="dist/img/experience/rhapsodie.jpeg" alt="Rhapsodie.co" class="w-full rounded-xl" />
+              </div>
+              <div class="flex flex-col gap-2">
+                <h1 class="font-bold text-xl">Full Stack Website Developer</h1>
+                <h3>Rhapsodie.co - Contract</h3>
+                <h4>Jan 2020 - Jun 2020 (6 months)</h4>
+                <div>
+                  <span class="text-primary">
+                    <i class="fa-solid fa-map-pin"></i>
+                  </span>
+                  Tangerang, Banten, Indonesia
+                </div>
+
+                <div class="flex flex-col mt-3">
+                  <h1>Job Description :</h1>
+                  <ol class="list-decimal list-inside">
+                    <li>Implement Graphic Design to Website element using HTML, CSS and Javascript.</li>
+                    <li>Collaborate and communicate with team members to ensure the website is user-friendly and visually appealing.</li>
+                    <li>Participate in project management and ensure timely delivery of the website.</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- NusaTalent - Full Stack Website Developer  -->
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <div class="flex gap-10 mb-10">
+              <div class="min-w-[50px] max-w-[150px] rounded-xl overflow-hidden">
+                <img src="dist/img/experience/NusaTalent.jpeg" alt="Rhapsodie.co" class="w-full rounded-xl" />
+              </div>
+              <div class="flex flex-col gap-2">
+                <h1 class="font-bold text-xl">Full Stack Website Developer Internship</h1>
+                <h3>NusaTalent - Internship</h3>
+                <h4>Jan 2019 - Jun 2019 (6 months)</h4>
+                <div>
+                  <span class="text-primary">
+                    <i class="fa-solid fa-map-pin"></i>
+                  </span>
+                  Jakarta Barat, DKI Jakarta, Indonesia
+                </div>
+
+                <div class="flex flex-col mt-3">
+                  <h1>Job Description :</h1>
+                  <ol class="list-decimal list-inside">
+                    <li>Identify user needs to design event website of University and Company.</li>
+                    <li>Implement Graphic Design to Website element using HTML, CSS and Javascript.</li>
+                    <li>Build and design server-side using PHP and MySQL.</li>
+                    <li>Manage database and build eficient query.</li>
+                    <li>Collaborate and communicate with team members to ensure the website is user-friendly and visually appealing.</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- MPM Group (PT. Mitra Pinasthika Mustika, Tbk) - Back End Developer Internship -->
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <div class="flex gap-10 mb-10">
+              <div class="min-w-[50px] max-w-[150px] rounded-xl overflow-hidden">
+                <img src="dist/img/experience/MPM.jpeg" alt="Rhapsodie.co" class="w-full rounded-xl" />
+              </div>
+              <div class="flex flex-col gap-2">
+                <h1 class="font-bold text-xl">Back End Developer Internship</h1>
+                <h3>MPM Group (PT. Mitra Pinasthika Mustika, Tbk) - Internship</h3>
+                <h4>Aug 2018 - Oct 2018 (3 months)</h4>
+                <div>
+                  <span class="text-primary">
+                    <i class="fa-solid fa-map-pin"></i>
+                  </span>
+                  Tangerang, Banten, Indonesia
+                </div>
+
+                <div class="flex flex-col mt-3">
+                  <h1>Job Description :</h1>
+                  <ol class="list-decimal list-inside">
+                    <li>Identify user needs to modify website of MPM Finance Portal.</li>
+                    <li>Build database query to retrieve data from database.</li>
+                    <li>Optimize database query to improve performance.</li>
+                    <li>Collaborate and communicate with finance, front end and management trainee to develop system.</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- La Grama - Android Developer -->
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <div class="flex gap-10 mb-10">
+              <div class="min-w-[50px] max-w-[150px] rounded-xl overflow-hidden">
+                <img src="dist/img/experience/lagramma.jpg" alt="Rhapsodie.co" class="w-full rounded-xl" />
+              </div>
+              <div class="flex flex-col gap-2">
+                <h1 class="font-bold text-xl">Android Developer</h1>
+                <h3>La Gramma - Project</h3>
+                <h4>Jan 2018 - Jul 2018 (7 months)</h4>
+                <div>
+                  <span class="text-primary">
+                    <i class="fa-solid fa-map-pin"></i>
+                  </span>
+                  Tangerang, Banten, Indonesia
+                </div>
+
+                <div class="flex flex-col mt-3">
+                  <h1>Job Description :</h1>
+                  <ol class="list-decimal list-inside">
+                    <li>Identify user needs and planning the development of a POS Android application, including setting goals, deadlines, and budgets.</li>
+                    <li>Managing the Android development team (4 members) by defining roles, responsibilities, and allocating resources effectively.</li>
+                    <li>Presenting the final project results to the client.</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -294,7 +466,44 @@
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-16">
             <h4 class="font-bold uppercase text-primary text-lg mb-3 lg:text-4xl">Certificate</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam inventore necessitatibus ullam omnis delectus placeat laudantium sequi excepturi harum unde?</p>
+          </div>
+        </div>
+
+        <!-- Hacker Rank -->
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <!-- Hacker Rank -->
+            <div class="flex gap-5">
+              <div class="min-w-[50px] max-w-[150px] rounded-xl overflow-hidden mb-10">
+                <img src="dist/img/certificate/hackerrank.webp" alt="Hacker Rank" class="w-full rounded-xl" />
+              </div>
+              <div class="flex flex-col">
+                <h1 class="text-dark text-xl font-semibold">Hacker Rank</h1>
+                <ul class="list-disc list-inside">
+                  <li><a href="https://www.hackerrank.com/certificates/dac121cc9d3a" class="hover:text-primary" target="_blank">Javascript (Basic)</a></li>
+                  <li><a href="https://www.hackerrank.com/certificates/7651fb49cdaf" class="hover:text-primary" target="_blank">SQL (Basic)</a></li>
+                  <li><a href="https://www.hackerrank.com/certificates/1c061a59467b" class="hover:text-primary" target="_blank">CSS (Basic)</a></li>
+                  <li><a href="https://www.hackerrank.com/certificates/96c621a035c9" class="hover:text-primary" target="_blank">React (Basic)</a></li>
+                  <li><a href="https://www.hackerrank.com/certificates/b8e726768426" class="hover:text-primary" target="_blank">Problem Solving (Basic)</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hacktiv8 -->
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <!-- Hacker Rank -->
+            <div class="flex gap-5">
+              <div class="min-w-[50px] max-w-[150px] rounded-xl overflow-hidden mb-10">
+                <img src="dist/img/education/hacktiv8.png" alt="Hacker Rank" class="w-full rounded-xl" />
+              </div>
+              <div class="flex flex-col">
+                <h1 class="text-dark text-xl font-semibold">Hacktiv8</h1>
+                <ul class="list-disc list-inside">
+                  <li><a href="https://drive.google.com/file/d/1LB9C2dtm90W0hqE36BxM8NIv0QCrMhLs/view?usp=drive_link" class="hover:text-primary" target="_blank">Certificate of Graduation</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -302,17 +511,116 @@
     <!-- Certificate Section End -->
 
     <!-- Contact Section Start -->
-    <section id="contact" class="pt-24 pb-32 md:pt-20">
+    <!-- <section id="contact" class="pt-24 pb-32 md:pt-20 bg-slate-100">
       <div class="container">
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-16">
             <h4 class="font-bold uppercase text-primary text-lg mb-3 lg:text-4xl">Contact Me</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam inventore necessitatibus ullam omnis delectus placeat laudantium sequi excepturi harum unde?</p>
           </div>
         </div>
       </div>
-    </section>
+
+      <form action="">
+        <div class="w-full lg:w-1/3 lg:mx-auto">
+          <div class="w-full px-4 mb-8">
+            <label for="name" class="text-base font-bold text-primary"> Name </label>
+            <input type="text" id="name" class="w-full text-dark rounded-md p-3 focus:ring-primary focus:border-primary focus:outline-none focus:ring-4 ring-1 ring-primary" />
+          </div>
+          <div class="w-full px-4 mb-8">
+            <label for="email" class="text-base font-bold text-primary"> Email </label>
+            <input type="text" id="name" class="w-full text-dark rounded-md p-3 focus:ring-primary focus:border-primary focus:outline-none focus:ring-4 ring-1 ring-primary" />
+          </div>
+          <div class="w-full px-4 mb-8">
+            <label for="Message" class="text-base font-bold text-primary"> Message </label>
+            <textarea type="text" id="name" class="w-full text-dark rounded-md p-3 focus:ring-primary focus:border-primary focus:outline-none focus:ring-4 ring-1 ring-primary h-32"></textarea>
+          </div>
+          <div class="w-full px-4">
+            <button class="text-base font-semibold bg-primary text-white py-3 px-8 rounded-full w-full hover:opacity-90 hover:shadow-lg transition duration-500 ease-in-out">Send Message</button>
+          </div>
+        </div>
+      </form>
+    </section> -->
     <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-dark pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/2">
+            <h1 class="font-bold text-white text-3xl mb-3">Kelvin Tryanto</h1>
+            <h2 id="contact" class="font-bold text-white text-xl">Contact Me</h2>
+            <h3>Website Developer | Software Engineer</h3>
+            <p class="hover:text-primary transition duration-300 ease-in-out">
+              <!-- Phone -->
+              <a href="https://wa.me/628990937575"><i class="fa-brands fa-whatsapp"></i> +62 899 0937575 </a>
+            </p>
+            <p><i class="fa-regular fa-envelope"></i> kelvin.tryanto@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot"></i> Jakarta, Indonesia</p>
+          </div>
+          <div class="w-full px-4 mb-12 text-white md:w-1/2">
+            <h2 class="font-bold text-white text-xl mb-3">Link</h2>
+            <ul>
+              <li>
+                <a href="#home" class="inline-block text-base hover:text-primary">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="inline-block text-base hover:text-primary">About</a>
+              </li>
+              <li>
+                <a href="#project" class="inline-block text-base hover:text-primary">Projects</a>
+              </li>
+              <li>
+                <a href="#education" class="inline-block text-base hover:text-primary">Education</a>
+              </li>
+              <li>
+                <a href="#experience" class="inline-block text-base hover:text-primary">Experience</a>
+              </li>
+              <li>
+                <a href="#certificate" class="inline-block text-base hover:text-primary">Certificate</a>
+              </li>
+              <li>
+                <a href="#contact" class="inline-block text-base hover:text-primary">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="w-full pt-10 border-t border-slate-800">
+          <div class="flex items-center justify-center mb-5">
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/kelvin_tryanto/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white text-slate-300">
+              <svg role="img" width="24" height="24" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Instagram</title>
+                <path
+                  d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" />
+              </svg>
+            </a>
+            <!-- Github -->
+            <a href="https://github.com/kelvintryanto" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white text-slate-300">
+              <svg role="img" width="24" height="24" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Github</title>
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+            </a>
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/kelvintryanto/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white text-slate-300">
+              <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24" class="rounded-md">
+                <title>LinkedIn</title>
+                <path d="M22.23 0H1.77A1.77 1.77 0 000 1.77v20.46A1.77 1.77 0 001.77 24h20.46A1.77 1.77 0 0024 22.23V1.77A1.77 1.77 0 0022.23 0zM7.09 20.45H3.56V9h3.53zm-1.77-13a2.06 2.06 0 11.01-4.12 2.06 2.06 0 01-.01 4.12zM20.45 20.45h-3.53v-5.61c0-1.34-.03-3.06-1.86-3.06s-2.15 1.45-2.15 2.96v5.71h-3.53V9h3.4v1.56h.05a3.73 3.73 0 013.35-1.84c3.58 0 4.24 2.36 4.24 5.43v6.3z" />
+              </svg>
+            </a>
+          </div>
+          <p class="font-medium text-sm text-slate-500 text-center">Made with ❤️ by <a href="https://www.linkedin.com/in/kelvintryanto/" class="hover:text-primary"> Kelvin Tryanto </a></p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Tombol WhatsApp -->
+    <a href="https://wa.me/628990937575" target="_blank" class="fixed bottom-5 right-5 bg-green-400 text-white rounded-full shadow-lg">
+      <img src="dist/img/Print_Glyph_White.png" alt="Contact Me on WhatsApp" class="w-14 h-w-14 lg:h-16 lg:w-16" />
+    </a>
 
     <script src="dist/js/script.js"></script>
   </body>
