@@ -604,6 +604,10 @@ video {
   position: relative;
 }
 
+.inset-0 {
+  inset: 0px;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -620,8 +624,8 @@ video {
   left: 50%;
 }
 
-.right-4 {
-  right: 1rem;
+.right-0 {
+  right: 0px;
 }
 
 .right-5 {
@@ -634,10 +638,6 @@ video {
 
 .top-full {
   top: 100%;
-}
-
-.right-0 {
-  right: 0px;
 }
 
 .-z-10 {
@@ -1001,10 +1001,6 @@ video {
 
 .pt-24 {
   padding-top: 6rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
 }
 
 .text-center {
